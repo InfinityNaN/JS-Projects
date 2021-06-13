@@ -1,0 +1,19 @@
+body{
+    background: greenyellow;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+button{
+    padding: 5px;
+}
+input{
+    font-size: 15px;
+}
+div{
+    color: red;
+}
+
