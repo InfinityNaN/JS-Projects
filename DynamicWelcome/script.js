@@ -2,6 +2,9 @@ const greet = () => {
 	let date = new Date();
 	let hr = date.getHours();
 	let out = '';
+	if (hr == 0) {
+		hr = 24;
+	}
 	if (hr >= 22 && hr > 6) {
 		out = 'Hello Good Night';
 	} else if (hr >= 6 && hr < 12) {
